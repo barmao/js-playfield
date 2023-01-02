@@ -1,3 +1,39 @@
+In a NoSQL database, a record is usually stored as a JSON document
+
+Why should you use a NoSQL database?
+- Flexibility
+- Scalability
+- High-performance
+- Highly functional
+
+
+Types of NoSQL Databases
+- Key-value
+- Document
+- Graph
+- In-memory
+- Search
+- Wide-column stores
+
+
+Data comes in all shapes and sizes — structured, semi-structured, and polymorphic
+Defining the schema in advance became nearly impossible. 
+NoSQL databases allow developers to store huge amounts of unstructured data, giving them a lot of flexibility.
+
+
+Documents typically store information about one object as well as any information related to that object. 
+Related documents are grouped together in collections. 
+Related collections are grouped together and stored in a database.
+
+
+
+BSON has a variety of data types including 
+- Double, String, Object, Array, Binary Data, ObjectId, Boolean, Date, Null, Regular Expression, JavaScript, JavaScript (with scope), 32-bit Integer, Timestamp, 64-bit Integer, Decimal128, Min Key, and Max Key.
+- With all of these types available for you to use, you have the power to model your data as it exists in the real world
+- Every document is required to have a field named _id
+- The value of _id must be unique for each document in a collection, is immutable, and can be of any type other than an array.
+
+
 MongoDB CRUD Operations
 
 CRUD operations create, read, update, and delete documents
@@ -179,3 +215,5 @@ https://www.mongodb.com/docs/manual/crud/
 https://www.mongodb.com/docs/manual/core/schema-validation/
 https://www.guru99.com/nosql-tutorial.html
 https://www.couchbase.com/resources/why-nosql/
+https://www.mongodb.com/developer/products/mongodb/map-terms-concepts-sql-mongodb/
+https://www.mongodb.com/docs/manual/tutorial/query-documents/
